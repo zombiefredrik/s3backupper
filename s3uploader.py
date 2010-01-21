@@ -42,10 +42,11 @@ class uploader:
 if __name__ == '__main__':
 	
 	access_key = 'PUT YOUR AMAZON ACCESS KEY HERE!'
-	secret_key = 'PUT YOUR AMAZON SECREAT KEY HERE!'
+	secret_key = 'PUT YOUR AMAZON SECRET KEY HERE!'
 	uploader = uploader(access_key, secret_key)
 
 	#To backup
+	#you should comment more iamanders :)
 	to_backup = [
 					{'id': 'foo', 'path': '/path/to/files1/', 'bucket': 'bucket1', 'date': False},
 					#{'id': 'bar', 'path': '/path/to/files2/', 'bucket': 'bucket2', 'date': True},
