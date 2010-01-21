@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+#author iamanders.com 
+#this is just a test to get the hang of github!
 
 import os
 import time
